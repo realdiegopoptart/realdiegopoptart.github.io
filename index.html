@@ -27,8 +27,12 @@
           <div class="line3"></div>
         </div>
         <ul class="nav-links">
+          <li><a class="nav nav-link" href='#home'>Home</a></li> 
+          <li><a class="nav nav-link" href='#projects'>Projects</a></li> 
+          <li><a class="nav nav-link" href='#cool'>Cool</a></li> 
           <li><a class="nav nav-link" href='#about'>About</a></li>
-          <li><a class="nav nav-link" href='#projects'>Projects</a></li>     
+          <li><a class="nav nav-link" <!--href=''>|</a></li>
+          <a class="nav nav-link" onclick="OnDarkMode()"><i class="fa fa-adjust"></i> Dark Mode</a>
         </ul>       
       </div>
     </header>
@@ -70,6 +74,37 @@
           </div>
         </div>
       </div>
+      <div id="cool">
+        <div class="projects-container">
+          <h1 class="text2 projects-heading">Cool Stuff</h1>
+          <div class="projects-section">
+            <div class="project">             
+              <a href="fluid/index.html" target="_blank" rel="noreferrer">
+                <img class="project-img" src="assets/img/fluid.png">
+                <p class="project-title">Fluid Simulator</p>
+                  <p class="project-tech">On GitHub</p>
+                <p class="project-info">paveldogreat</p>
+              </a>
+            </div>
+            <div class="project">
+              <a href="https://bongo.cat/" target="_blank" rel="noreferrer">
+                <img class="project-img" src="assets/img/bongo.png">
+                <p class="project-title">Bongo.cat</p>
+                 <p class="project-tech">On GitHub</p> 
+                <p class="project-info">Externalizable</p>
+              </a>
+            </div>
+            <div class="project">
+              <a href="#" target="_blank" rel="noreferrer">
+                <img class="project-img" src="img/none.png">
+                <p class="project-title">Coming Soon</p>
+                <!-- <p class="project-tech">Scratch</p> -->
+                <p class="project-info">Coming Soon!</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div id="about">
         <h1 class="text2">About</h1>
         <p>I'm a person who likes to code and play video games.</p>
@@ -89,6 +124,15 @@
       </div>
     </main>
     <script src="assets/js/script.js"></script>
+
+<script>
+function OnDarkMode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+
   </body>
 </html>
 

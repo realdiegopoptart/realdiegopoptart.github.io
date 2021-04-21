@@ -1,0 +1,23 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "This retro CGI is a relaxing pixel art of Dolphins jumping and swimming in a see of black and white. Clicking the mouse will switch colors. Moving the mouse over the waters will cause waves. Enjoy!",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Nature" ],
+	"title" : "Blanc Noir",
+	"type" : "web",
+	"visibility" : "public"
+}
