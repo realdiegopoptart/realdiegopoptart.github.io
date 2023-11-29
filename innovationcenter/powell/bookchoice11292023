@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Diego's Book Choice</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: blueviolet;
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        p {
+            text-align: justify;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+<main class="container">
+    <div class="grid">
+        <div>
+            <h1>Maddy's Website <br><samp>Book choice; Diego Casillas, IC-AM Dr. Powell</samp></h1>
+            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Everything%2C_Everything_Logo.JPG/1200px-Everything%2C_Everything_Logo.JPG" alt="Book cover image here">
+            <p><br><br>Hi, I'm Maddy. Welcome to my world. I'm 18 years old and I live in Los Angeles with my mom, who is a doctor. I have a rare condition called SCID, which means I can't go outside or have contact with anyone who might make me sick. I spend most of my time in my white room, reading books, watching movies, and learning new things online. I also love architecture and I make models of buildings that I dream of visiting someday.</p>
+
+            <h2>About Me</h2>
+            <ul>
+                <li>I am 18 years old.</li>
+                <li>I have brown eyes and black hair.</li>
+                <li>I thought I was allergic to almost everything.</li>
+                <li>I have a boyfriend named Olly who lives next door.</li>
+            </ul>
+            
+            <h2>My Interests</h2>
+            <ul>
+                <li>Books: I love reading books of all genres, but especially romance, fantasy, and science fiction.</li>
+                <li>Movies: I enjoy watching movies that make me laugh, cry, or think.</li>
+                <li>Architecture: I admire the art and science of designing and constructing buildings.</li>
+                <li>Astronomy: I'm fascinated by the stars, planets, and galaxies that fill the night sky. I like to learn about the mysteries and wonders of the universe.</li>
+            </ul>
+        </div>
+    </div>
+</main>
+</body>
+</html>
